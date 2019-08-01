@@ -1,0 +1,77 @@
+---
+title: "iRT test"
+author: "Zilu Ye"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+# Making libraries
+
+To test the iRT in DIA library.
+
+- Take HepG2 WT SSL
+- Make different iRTs
+
+
+## Import SSL
+```{r}
+SSL <- read.delim("data/180112_Fusion_(LC2)_NewObj_Zilu_HepG2_WT_Neuraminidase_Jacalin_Trypsin_1to1_2h_10HCD_DDA_1(G).xls",
+                  stringsAsFactors = FALSE)
+```
+
+
+## Make 4 different libraries and change the iRT
+```{r}
+SSL_1 <- SSL
+SSL_10 <- SSL
+SSL_50 <- SSL
+SSL_100 <- SSL
+
+
+SSL_1$iRT <- SSL_1$iRT + 1
+SSL_10$iRT <- SSL_10$iRT + 10
+SSL_50$iRT <- SSL_50$iRT + 50
+SSL_100$iRT <- SSL_100$iRT + 100
+```
+
+## Export those libraries
+
+*write.table(SSL, file = "data/SSL.xls", row.names = FALSE, sep = "\t")*
+
+*write.table(SSL_1, file = "data/SSL_1.xls", row.names = FALSE, sep = "\t")*
+
+*write.table(SSL_10, file = "data/SSL_10.xls", row.names = FALSE, sep = "\t")*
+
+*write.table(SSL_50, file = "data/SSL_50.xls", row.names = FALSE, sep = "\t")*
+
+*write.table(SSL_100, file = "data/SSL_100.xls", row.names = FALSE, sep = "\t")*
+
+## Import libraries into Spectronaut
+
+![](figures/ImportedLibraries.png)
+
+
+# DIA analysis in Spectronaut
+
+## SSL
+
+![](figures/SSL.png)
+
+## SSL_1
+
+![](figures/SSL1.png)
+
+## SSL_10
+
+![](figures/SSL10.png)
+
+## SSL_50
+
+![](figures/SSL50.png)
+
+## SSL_100
+
+![](figures/SSL100.png)

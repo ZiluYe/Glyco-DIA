@@ -30,6 +30,9 @@ The Glyco-DIA library consists of sublibraries obtained from human cell lines an
 | Serum_DIA_Comprehensive |	Multiple MS runs (with and without Top2 depletion, high pH reverse phase fractionated) in HCD-MS2 DDA mode, LWAC Jacalin enriched samples from human serum |
 | Serum_SiteSpecific |	Single MS run in ETD/HCD-MS2 DDA mode, LWAC Jacalin enriched samples from human serum |
 
-## in silico library generation
+### in silico library
 
 The R script for in silico library generation is at `R/in silico Library.R` and the related example file is at `test/test_Tn.xls`
+
+Due to the limitation of file size on GitHub, we share all the in silico libraries on [_GoogleDrive_](https://drive.google.com/drive/folders/1v-UikCNc7SUhB7vFPQ5oL06O2pN1nwDg?usp=sharing).
+
