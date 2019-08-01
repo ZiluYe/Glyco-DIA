@@ -1,4 +1,5 @@
 
+
 # Glyco-DIA
 Here is the repository for Glyco-DIA.
 
@@ -12,3 +13,22 @@ The Glyco-DIA library consists of sublibraries obtained from human cell lines an
 
 ![Glyco-DIA libraries](figures/NMETH-A36298A_Figure1_temp_b.jpg)
 
+### Library description
+
+| Library  | Description |
+| ------------- | ------------- |
+| HEK_SC_Comprehensive  | Multiple MS runs (high pH reverse phase fractionated) in HCD-MS2 DDA mode, LWAC VVA enriched samples from HEK SC|
+| HEK_SC_Single_SingleRun | Single MS run in HCD-MS2 DDA mode, LWAC VVA enriched samples from HEK SC |
+| HEK_WT_Comprehensive	| Multiple MS runs (high pH reverse phase fractionated) in HCD-MS2 DDA mode, LWAC Jacalin enriched samples from HEK293 WT |
+| HepG2_SC_Comprehensive |	Multiple MS runs (high pH reverse phase fractionated) in HCD-MS2 DDA mode, LWAC VVA enriched samples from HepG2 SC |
+| HepG2_SC_Secretome_SingleRun |	Single MS run in HCD-MS2 DDA mode, LWAC VVA enriched samples from HEK SC secretome |
+| HepG2_SC_SingleRun |	Single MS run in HCD-MS2 DDA mode, LWAC VVA enriched samples from HEK SC |
+| HepG2_WT_Comprehensive |	Multiple MS runs (high pH reverse phase fractionated) in HCD-MS2 DDA mode, LWAC Jacalin enriched samples from HepG2 WT |
+| HepG2_WT_SingleRun |	Single MS run in HCD-MS2 DDA mode, LWAC Jacalin enriched samples from HepG2 WT |
+| M3T4_SC_Comprehensive |	Multiple MS runs (high pH reverse phase fractionated) in HCD-MS2 DDA mode, LWAC VVA enriched samples from M3T4 SC |
+| OVCAR3_SC_Comprehensive |	Multiple MS runs (high pH reverse phase fractionated) in HCD-MS2 DDA mode, LWAC VVA enriched samples from OVCAR3 SC |
+| Serum_DIA_Comprehensive |	Multiple MS runs (with and without Top2 depletion, high pH reverse phase fractionated) in HCD-MS2 DDA mode, LWAC Jacalin enriched samples from human serum |
+
+## in silico library generation
+
+The R script for in silico library generation is at `R/in silico Library.R` and the related example file is at `test/test_Tn.xls`
