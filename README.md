@@ -32,7 +32,26 @@ The Glyco-DIA library consists of sublibraries obtained from human cell lines an
 
 ### in silico library
 
-The R script for in silico library generation is at `R/in silico Library.R` and the related example file is at `test/test_Tn.xls`
-
 Due to the limitation of file size on GitHub, we share all the in silico libraries on [_GoogleDrive_](https://drive.google.com/drive/folders/1v-UikCNc7SUhB7vFPQ5oL06O2pN1nwDg?usp=sharing).
+
+| Library  | Original structure | in silico structure  | Source |
+| ------------- | ------------- | ------------- | ------------- |
+| Naked_Library_Cell_Tn.xls  | Tn | Non-glycosylated  | Merged SimpleCell lines|
+| T_Library_Cell_Tn.xls  | Tn | T | Merged SimpleCell lines|
+| STn_Library_Cell_Tn.xls  | Tn | SiaTn  | Merged SimpleCell lines|
+| mST_Library_Cell_Tn.xls  | Tn | mSiaT  | Merged SimpleCell lines|
+| dST_Library_Cell_Tn.xls  | Tn | dSiaT  | Merged SimpleCell lines|
+| Naked_Library_Cell_T.xls  | T | Non-glycosylated  | Merged WT cell lines|
+| Tn_Library_Cell_T.xls  | T | Non-glycosylated  | Merged WT cell lines|
+| STn_Library_Cell_T.xls  | T | SiaTn  | Merged WT cell lines|
+| mST_Library_Cell_T.xls  | T | mSiaT  | Merged WT cell lines|
+| dST_Library_Cell_T.xls  | T | dSiaT  | Merged WT cell lines|
+| Naked_Library_Serum.xls  | T&Tn | Non-glycosylated  | Serum|
+| Tn_Library_Serum.xls  | T&Tn | Tn  | Serum|
+| T_Library_Serum.xls  | T&Tn | T | Serum|
+| STn_Library_Serum.xls  | T&Tn | SiaTn  | Serum|
+| mST_Library_Serum.xls  | T&Tn | mSiaT  | Serum|
+| dST_Library_Serum.xls  | T&Tn | dSiaT  | Serum|
+
+The R script for in silico library generation is at `R/in silico Library.R` and the related example file is at `test/test_Tn.xls`
 
