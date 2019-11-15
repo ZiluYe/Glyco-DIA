@@ -55,3 +55,6 @@ Due to the limitation of file size on GitHub, we share all the in silico librari
 
 The R script for in silico library generation is at `R/in silico Library.R` and the related example file is at `test/test_Tn.xls`
 
+## Site Specific Glyco-DIA
+
+The relavant raw and result files for site-specific Glyco-DIA are avaible on the same address of [_GoogleDrive_](https://drive.google.com/drive/folders/1v-UikCNc7SUhB7vFPQ5oL06O2pN1nwDg?usp=sharing).
