@@ -57,4 +57,4 @@ The R script for in silico library generation is at `R/in silico Library.R` and 
 
 ## Site Specific Glyco-DIA
 
-The relavant raw and result files for site-specific Glyco-DIA are avaible on the same address of [_GoogleDrive_](https://drive.google.com/drive/folders/1v-UikCNc7SUhB7vFPQ5oL06O2pN1nwDg?usp=sharing).
+The relevant raw and result files for site-specific Glyco-DIA are avaible on the same address in the Folder **SiteSpecificDIA** of [_GoogleDrive_](https://drive.google.com/drive/folders/1v-UikCNc7SUhB7vFPQ5oL06O2pN1nwDg?usp=sharing).
